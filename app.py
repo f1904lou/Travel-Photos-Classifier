@@ -2,7 +2,7 @@ import gradio as gr
 from fastai.vision.all import *
 learn = load_learner('Photo_classification_model.pkl')
 
-labels = ["Moutain Landscape", "Beach Landscape", "Group Photo"]
+labels = learn.dls.vocab
 def predict(img):
     img = PILImage.create(img)
     pred,pred_idx,probs = learn.predict(img)
