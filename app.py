@@ -3,6 +3,7 @@ from fastai.vision.all import *
 learn = load_learner('Photo_classification_model.pkl')
 
 labels = learn.dls.vocab
+labels = [labels.capitalize() for labels in labels]
 def predict(img):
     img = PILImage.create(img)
     pred,pred_idx,probs = learn.predict(img)
