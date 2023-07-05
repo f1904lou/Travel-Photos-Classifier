@@ -3,6 +3,6 @@ A travel photo classifier trained with fastai. Created as a demo for Gradio and 
 
 Hugging Face Space: https://huggingface.co/spaces/franloureiro/Travel_Photos_Classifier
 
-Via API: https://franloureiro-travel-photos-classifier.hf.space/?
+Interface: https://franloureiro-travel-photos-classifier.hf.space/?
 
 Website Demo: Coming soon. 
