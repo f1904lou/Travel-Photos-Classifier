@@ -1,12 +1,9 @@
----
-title: Travel Photos Classifier
-emoji: 🚀
-colorFrom: green
-colorTo: red
-sdk: gradio
-sdk_version: 3.35.2
-app_file: app.py
-pinned: false
----
+Travel Photos Classifier
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+A travel photo classifier trained with fastai. Created as a demo for Gradio and HuggingFace Spaces.
+
+Hugging Face Space: https://huggingface.co/spaces/franloureiro/Travel_Photos_Classifier
+
+Gradio API: https://franloureiro-travel-photos-classifier.hf.space/
+
+Website Demo: Coming Soon
